@@ -62,3 +62,8 @@ variable "backuptime" {
     default = "09:46-10:16"
   
 }
+
+variable "parameter_group_name " {
+    type = string
+    default = "custom-parameter-group-0001"
+}
